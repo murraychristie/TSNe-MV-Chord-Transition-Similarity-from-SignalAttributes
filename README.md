@@ -1,4 +1,4 @@
-This code is designed to analyze and compare different chord qualities by generating their waveforms, decomposing them into Intrinsic Mode Functions (IMFs) using Empirical Mode Decomposition (EMD), applying the Hilbert transform to obtain envelopes, and then calculating areas representing the differences between chords over specified time intervals. Finally, it organizes the results into a DataFrame for further analysis or visualization.
+This code is designed to analyze and compare different chord qualities by generating their waveforms, decomposing them into Intrinsic Mode Functions (IMFs) using Empirical Mode Decomposition (EMD), applying the Hilbert transform to obtain envelopes, and then calculating areas representing the differences (dissonance) between chords over specified time intervals. Finally, it organizes the results into a DataFrame for further analysis or visualization.
 
 Quantifies and plots pair wise similarities of chord siilarity with T-SNE space
 - closer the chord are similar (less dissonant)  
